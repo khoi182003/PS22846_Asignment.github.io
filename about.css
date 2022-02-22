@@ -1,0 +1,81 @@
+.box-main{
+    width: 100%;
+    min-height: 100px;
+}
+.header{
+    height: 60px;
+    background-color: rgb(129, 126, 126);
+    position: relative;
+}
+.box1{
+    height: 40px;
+    width: 180px;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+.box2{
+    height: 30px;
+    width: 400px;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+}
+.search input{
+    height: 30px;
+    width: 400px;
+    border-radius: 1px;
+    margin: 0;    
+}
+.main-menu {
+    font-size: 20px;
+    text-align: center;
+    background: #ddd;
+    height: 50px;
+    padding: 10px;  
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul:hover li{
+    text-decoration: underline;
+}
+ul li:hover a{
+    background-color: rgb(238, 238, 238);
+}
+
+.main-menu ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px; 
+}
+.sub-menu{
+    text-align:left;
+    display: none;
+    padding: 20px;
+}
+.main-menu li {
+    position: relative;
+}
+.main-menu li:hover .sub-menu{
+    display: block;
+    background-color: rgb(238, 238, 238);
+}
+.main-menu li .sub-menu{
+    position: absolute;
+    top: 20;
+    left: 0;
+}
+.main-menu .sub-menu li {
+    display: block;
+    width: 250px;
+    padding: 20px 0;
+}
+.box{
+    width: 100%;
+    min-height: 300px;
+    margin: 0px auto;
+}
+p{
+    font-size: 20px;
+}
